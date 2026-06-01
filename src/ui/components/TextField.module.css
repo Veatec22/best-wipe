@@ -1,0 +1,32 @@
+.field {
+  width: 100%;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  line-height: 1.5;
+  padding: 6px 10px;
+  border: 2px solid var(--ink);
+  background: var(--paper);
+  color: var(--ink);
+  outline: none;
+  resize: none;
+  cursor: var(--df-cursor-text);
+}
+
+.field:focus {
+  background: #fffdf6;
+}
+
+.field::placeholder {
+  color: var(--muted);
+  opacity: 0.7;
+}
+
+.field:disabled {
+  opacity: 0.5;
+  cursor: var(--df-cursor-not-allowed);
+}
+
+.fill {
+  flex: 1;
+  height: 100%;
+}

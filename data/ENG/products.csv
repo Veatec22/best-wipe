@@ -1,0 +1,16 @@
+id,name,type,base_price
+1,Basic Roll 2W,standard,8.99
+2,Soft Cloud 3W,soft,12.99
+3,Ultra Comfort 4W,premium,18.99
+4,Eco Bamboo Roll,eco,16.49
+5,Recycled Daily,eco,10.99
+6,Family Pack 12,family_pack,29.99
+7,Office Mega Pack,bulk,79.99
+8,Scented Lavender,scented,14.99
+9,Sensitive Skin,hypoallergenic,15.99
+10,Luxury Hotel Roll,premium,24.99
+11,Budget Mini Pack,budget,6.99
+12,Wet Toilet Paper Classic,wet,11.99
+13,Kids Soft Roll,kids,13.49
+14,Travel Pocket Pack,travel,5.99
+15,Extra Long Roll,bulk,21.99

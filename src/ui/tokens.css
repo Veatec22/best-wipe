@@ -1,0 +1,101 @@
+/* Best Wipe — design tokens & base reset.
+   Imported once before feature CSS in main.tsx. */
+
+@import url("https://fonts.googleapis.com/css2?family=VT323&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap");
+
+:root {
+  --ink: #0a0a0a;
+  --ink-2: #1a1a1a;
+  --paper: #f4f1ea;
+  --paper-2: #e8e4d8;
+  --paper-3: #d8d2c1;
+  --rule: #0a0a0a;
+  --muted: #6b6358;
+  --ok: #1f6b2c;
+  --ok-bg: #c6e3b8;
+  --err: #a31515;
+  --err-bg: #f3c7c0;
+  --hot: #d92020;
+
+  --font-pixel: "VT323", "Courier New", monospace;
+  --font-mono: "IBM Plex Mono", "Courier New", monospace;
+
+  --df-cursor-default: url("../assets/cursors/ui/default.png") 0 0, auto;
+  --df-cursor-pointer: url("../assets/cursors/ui/pointer.png") 7 0, pointer;
+  --df-cursor-text: url("../assets/cursors/ui/text.png") 6 16, text;
+  --df-cursor-wait: url("../assets/cursors/ui/wait.png") 0 0, wait;
+  --df-cursor-progress: url("../assets/cursors/ui/progress.png") 16 2, progress;
+  --df-cursor-not-allowed: url("../assets/cursors/ui/not-allowed.png") 16 16, not-allowed;
+  --df-cursor-grab: url("../assets/cursors/ui/grab.png") 16 16, grab;
+  --df-cursor-grabbing: url("../assets/cursors/ui/grab.png") 16 16, grabbing;
+  --df-cursor-move: url("../assets/cursors/ui/move.png") 16 16, move;
+  --df-cursor-col-resize: url("../assets/cursors/ui/col-resize.png") 16 6, col-resize;
+  --df-cursor-row-resize: url("../assets/cursors/ui/row-resize.png") 6 16, row-resize;
+  --df-cursor-nesw-resize: url("../assets/cursors/ui/nesw-resize.png") 16 16, nesw-resize;
+  --df-cursor-nwse-resize: url("../assets/cursors/ui/nwse-resize.png") 16 16, nwse-resize;
+  --df-cursor-crosshair: url("../assets/cursors/ui/crosshair.png") 16 16, crosshair;
+  --df-cursor-zoom-in: url("../assets/cursors/ui/zoom-in.png") 16 16, zoom-in;
+  --df-cursor-zoom-out: url("../assets/cursors/ui/zoom-out.png") 16 16, zoom-out;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: var(--paper);
+}
+
+body {
+  font-family: var(--font-mono);
+  color: var(--ink);
+  cursor: var(--df-cursor-default);
+  -webkit-font-smoothing: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: var(--df-cursor-pointer);
+}
+
+button:disabled,
+[aria-disabled="true"],
+.is-disabled {
+  cursor: var(--df-cursor-not-allowed);
+}
+
+input,
+textarea,
+[contenteditable="true"],
+.cm-content {
+  cursor: var(--df-cursor-text);
+}
+
+input[type="button"],
+input[type="checkbox"],
+input[type="color"],
+input[type="file"],
+input[type="image"],
+input[type="radio"],
+input[type="range"],
+input[type="reset"],
+input[type="submit"],
+select,
+summary {
+  cursor: var(--df-cursor-pointer);
+}
+
+[style*="col-resize"],
+[style*="ew-resize"] {
+  cursor: var(--df-cursor-col-resize);
+}
+
+[style*="row-resize"],
+[style*="ns-resize"] {
+  cursor: var(--df-cursor-row-resize);
+}

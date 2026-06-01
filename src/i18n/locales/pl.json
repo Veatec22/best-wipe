@@ -1,0 +1,396 @@
+{
+  "app": {
+    "brandLine1": "BEST",
+    "brandLine2": "WIPE",
+    "subtitle": "v0.1 · probation week 1"
+  },
+  "header": {
+    "askAi": "Zapytaj AI {{used}}/{{total}}",
+    "remaining": "{{time}} left",
+    "day": "DAY {{day}}"
+  },
+  "sidebar": {
+    "company": "Best Wipe",
+    "weekday": "MON",
+    "groups": {
+      "channels": "KANAŁY",
+      "dm": "DIRECT MESSAGES",
+      "you": "TY"
+    },
+    "youLabel": "analyst · growth"
+  },
+  "chat": {
+    "label": "Best Wipe · Slack",
+    "empty": "brak wiadomości",
+    "actions": {
+      "accept": "PRZYJMIJ",
+      "reject": "ODRZUĆ",
+      "accepted": "PRZYJĘTE",
+      "rejected": "ODRZUCONE",
+      "ignored": "ZIGNOROWANE"
+    },
+    "autoReply": {
+      "accept": "ok, biorę",
+      "reject": "nie dam rady teraz"
+    },
+    "submission": {
+      "cover": "proszę"
+    },
+    "reactions": {
+      "add": "Dodaj reakcję",
+      "title": "Wybierz reakcję",
+      "chipAria": "{{emoji}} · {{count}}"
+    }
+  },
+  "tabs": {
+    "tasks": "Zadania",
+    "schema": "Schemat",
+    "docs": "Dokumentacja",
+    "structure": "Struktura",
+    "notes": "Notatki",
+    "calendar": "Kalendarz",
+    "admin": "ADMIN",
+    "workspaceDesktop": "Pulpit roboczy",
+    "workspaceExplorer": "Lista zakładek roboczych"
+  },
+  "tasks": {
+    "empty": {
+      "title": "BRAK ZADAŃ",
+      "line1": "Przyjęte SQL-taski pojawią się tutaj.",
+      "line2": "Przejdź do DM-a w lewym panelu i wybierz „PRZYJMIJ\"."
+    },
+    "scratchpadTab": "Scratchpad",
+    "send": "Wyślij",
+    "sending": "Wysyłam…",
+    "sentOk": "Wysłane ✓",
+    "sendAgain": "Wyślij ponownie"
+  },
+  "sql": {
+    "scratchpadLabel": "SCRATCHPAD · Week 1",
+    "resultsLabel": "WYNIKI",
+    "run": "Uruchom (Ctrl+Enter)",
+    "running": "Uruchamiam…",
+    "runtimeLoading": "Ładuję DuckDB i dane…",
+    "idle": "Brak wyników. Napisz zapytanie i kliknij Uruchom.",
+    "empty": "Zapytanie wykonane, ale wynik jest pusty.",
+    "error": "Błąd zapytania",
+    "rowsMeta": "{{count}} wierszy · {{ms}} ms",
+    "truncated": "Pokazano {{shown}} z {{total}} wierszy.",
+    "filterPlaceholder": "filtruj…",
+    "emptyAfterFilter": "Brak wierszy spełniających filtr."
+  },
+  "report": {
+    "title": "RAPORT",
+    "builderLabel": "Builder raportu",
+    "build": "Zbuduj raport",
+    "runFirst": "Uruchom SQL z minimum dwoma kolumnami, żeby zbudować raport.",
+    "sourceColumns": "{{count}} kolumn z wyniku SQL",
+    "chartType": "Typ",
+    "xColumn": "X",
+    "yColumn": "Y",
+    "choose": "wybierz...",
+    "dimensions": "Dimensions",
+    "measures": "Measures",
+    "columnsShelf": "Columns",
+    "rowsShelf": "Rows",
+    "dropDimension": "upuść dimension tutaj",
+    "dropMeasure": "upuść measure tutaj",
+    "askAi": "Zapytaj AI",
+    "aiGenerating": "Dobieram wykres...",
+    "aiSuggestion": "{{type}} · X: {{x}} · Y: {{y}}",
+    "useSuggestion": "Użyj",
+    "previewEmpty": "Wybierz typ wykresu oraz pola X i Y z wyniku SQL.",
+    "types": {
+      "bar": "Bar",
+      "line": "Line"
+    }
+  },
+  "schema": {
+    "title": "SCHEMAT · Best Wipe",
+    "subtitle": "Diagram ERD bazy probation_week1. Day 4–6 odsłonią dodatkowe relacje (sessions, refunds, countries_v2).",
+    "ariaLabel": "Diagram ERD bazy Best Wipe",
+    "loading": "Generowanie diagramu…",
+    "canvas": {
+      "toolbar": "Nawigacja schematu",
+      "search": "Szukaj w schemacie",
+      "searchPlaceholder": "Szukaj tabeli lub pola",
+      "zoomIn": "Przybliż schemat",
+      "zoomOut": "Oddal schemat",
+      "reset": "Resetuj widok schematu"
+    }
+  },
+  "docs": {
+    "title": "DATA HANDBOOK · Best Wipe",
+    "intro": "Dokumentacja jest zaufana i zawsze aktualna. Po oficjalnych zmianach (np. nowa wersja tabeli) dostaniesz informację na #data-platform, a wpis w Dokumentacji zostanie zaktualizowany. Przed walidacją taska upewnij się, że twój SQL trzyma się tych definicji.",
+    "activeUser": {
+      "heading": "Active user",
+      "body": "User jest aktywny w danym miesiącu, jeśli miał co najmniej jedną sesję w tym miesiącu kalendarzowym. Liczymy COUNT(DISTINCT user_id) z sessions, agregując po pełnych miesiącach kalendarzowych."
+    },
+    "revenue": {
+      "heading": "Revenue",
+      "body": "Domyślna definicja revenue to net, chyba że stakeholder wprost prosi o gross. Po wprowadzeniu tabeli refunds trzeba odejmować refunds.amount od sales.net."
+    },
+    "testAccounts": {
+      "heading": "Test accounts",
+      "body": "Pole users.is_test = true oznacza konto testowe (QA, dev, soak testy). Raporty userowe powinny domyślnie filtrować WHERE is_test = false. Dopóki taska nie precyzuje inaczej — zakładaj, że stakeholder nie chce testowych kont."
+    },
+    "footer": "Pełny handbook ładujemy w Phase 4 — to jest snippet startowy."
+  },
+  "structure": {
+    "title": "STRUKTURA · Best Wipe",
+    "subtitle": "Tribe ma znaczenie. Taski od osób w twojej linii raportowania (Growth) liczą się mocniej.",
+    "legend": {
+      "ceo": "CEO",
+      "lead": "Tribe lead",
+      "you": "TY"
+    },
+    "ariaLabel": "Drzewo organizacyjne Best Wipe",
+    "loading": "Generowanie diagramu…",
+    "canvas": {
+      "toolbar": "Nawigacja struktury",
+      "search": "Szukaj w strukturze",
+      "searchPlaceholder": "Szukaj osoby lub roli",
+      "zoomIn": "Przybliż strukturę",
+      "zoomOut": "Oddal strukturę",
+      "reset": "Resetuj widok struktury"
+    },
+    "viewTabsLabel": "Widok struktury",
+    "views": {
+      "diagram": "Diagram",
+      "table": "Tabela"
+    },
+    "table": {
+      "department": "Dział",
+      "firstName": "Imię",
+      "lastName": "Nazwisko",
+      "role": "Rola",
+      "reportsTo": "Raportuje do",
+      "filterPlaceholder": "filtruj…",
+      "emptyAfterFilter": "Brak osób spełniających filtr."
+    },
+    "noManager": "—"
+  },
+  "notes": {
+    "placeholder": "Notatki — co zauważyłeś, co przegapiłeś, co zapamiętać.\n\nNic nie idzie do AI ani do innych postaci. Tylko ty to widzisz.",
+    "statusSaving": "Zapisywanie…",
+    "statusSavedAt": "Zapisano {{time}}",
+    "statusIdle": "Autosave aktywny",
+    "chars": "{{count}} znaków"
+  },
+  "calendar": {
+    "kicker": "BEST WIPE CALENDAR",
+    "title": "Kalendarz spotkań",
+    "now": "teraz {{time}}",
+    "timelineLabel": "Plan dnia roboczego",
+    "detailsLabel": "Szczegóły spotkania",
+    "detailsKicker": "ZAPROSZENIE",
+    "join": "Dołącz",
+    "week": {
+      "day": "DAY {{day}}"
+    },
+    "fields": {
+      "time": "Czas",
+      "owner": "Prowadzi",
+      "participants": "Uczestnicy"
+    },
+    "retro": {
+      "title": "Retro po starcie tygodnia",
+      "aria": "Retro po starcie tygodnia, 10:30-10:45",
+      "description": "Krótki sync Growth po porannych wrzutkach. Kuba chce złapać nastroje, zanim taski rozjadą się po ludziach."
+    },
+    "block": {
+      "not_started": "Spotkanie jeszcze się nie zaczęło.",
+      "ended": "Spotkanie już się skończyło."
+    },
+    "room": {
+      "kicker": "SPOTKANIE TRWA",
+      "leave": "Wyjdź",
+      "placeholder": "Na razie widzisz tylko obecnych. Dialogi, decyzje i konsekwencje wejdą w kolejnym kroku."
+    },
+    "dialog": {
+      "label": "Dialog spotkania",
+      "next": "Następna",
+      "replay": "Powtórz głos",
+      "retro": {
+        "line1": "Dobra, szybki sync. Co nam się rozjechało po poranku?",
+        "line2": "Ja tylko zaznaczę, że raport country revenue jest absolutnie ASAP.",
+        "line3": "Mi się wydaje, że ktoś znowu odpalił query na całej tabeli sales.",
+        "line4": "Bez blame'u. Chcę tylko wiedzieć, czy mamy ryzyko na review o czternastej.",
+        "line5": "Ryzyko jest takie, że Marek zobaczy złą wersję i będzie po temacie.",
+        "line6": "Czyli klasycznie: działało, dopóki ktoś nie zapytał o definicję revenue.",
+        "line7": "Ty, jako data, zerknij proszę chłodnym okiem. Bez heroizmu, ale dowieźmy prawdę."
+      }
+    }
+  },
+  "status": {
+    "company": "Best Wipe",
+    "tribe": "tribe: growth",
+    "active": "active: {{channel}}",
+    "day": "day {{day}}",
+    "remaining": "{{time}} do końca dnia",
+    "pause": "❚❚ PAUZA",
+    "resume": "▶ WZNÓW",
+    "pausedTitle": "PAUZA",
+    "pausedHint": "Czas zatrzymany. Kliknij dowolne miejsce lub naciśnij ESC, aby wznowić."
+  },
+  "dayEnd": {
+    "title": "DAY END",
+    "subtitle": "Dzien zamkniety. Przejdz do kolejnego poranka.",
+    "weekComplete": "Dzien 7 zamkniety. Review tygodnia podepniemy w kolejnym kroku.",
+    "nextDay": "NEXT DAY",
+    "weekLocked": "WEEK END"
+  },
+  "menu": {
+    "label": "Menu glowne",
+    "kicker": "BEST WIPE INTERNAL OPS",
+    "subtitle": "probation week 1 · analytics workspace",
+    "story": "TRYB FABULARNY",
+    "challenges": "TRYB WYZWAN",
+    "endless": "ENDLESS MODE",
+    "settings": "USTAWIENIA",
+    "fullscreen": "Pelny ekran",
+    "music": "Muzyka",
+    "musicVolume": "Glosnosc muzyki",
+    "sfx": "Dzwiek",
+    "sfxVolume": "Glosnosc dzwieku",
+    "language": "Jezyk",
+    "exit": "Wylacz gre",
+    "exitConfirm": "Czy na pewno chcesz wylaczyc gre?",
+    "exitFallback": "Zamknij okno gry z ramki systemowej.",
+    "version": "v0.1.0"
+  },
+  "cinematics": {
+    "skip": "POMIN",
+    "continue": "DALEJ",
+    "newGameIntro": {
+      "kicker": "BEST WIPE S.A. / ONBOARDING",
+      "title": "DZIEN 1",
+      "subtitle": "OKRES PROBNY",
+      "body": {
+        "line1": "W nie tak odleglym open space, w firmie, ktora bardzo wierzy w dane, zaczyna sie tydzien wdrozenia.",
+        "line2": "Dzial analiz zostal czasowo oddelegowany do tematow strategicznych, operacyjnych i absolutnie na wczoraj.",
+        "line3": "Nowy junior data analyst otrzymuje dostep do hurtowni, Slacka, dokumentacji oraz umiarkowanego poziomu zaufania.",
+        "line4": "RUN oznacza tylko, ze zapytanie sie wykonalo. SEND oznacza, ze ktos moze zrobic z tym cos glupiego.",
+        "line5": "Przetrwaj siedem dni. Dowiez prawde albo dowiez spokoj. Firma zapamieta roznice."
+      }
+    }
+  },
+  "music": {
+    "label": "Odtwarzacz muzyki",
+    "play": "Odtwórz",
+    "pause": "Pauza",
+    "prev": "Poprzedni utwór",
+    "next": "Następny utwór",
+    "seek": "Przewiń utwór",
+    "volume": "Głośność",
+    "mute": "Wycisz",
+    "unmute": "Włącz dźwięk"
+  },
+  "submission": {
+    "title": "WYSŁANY WYNIK",
+    "close": "Zamknij",
+    "code": "Kod",
+    "result": "Wynik",
+    "missing": "Wpis wysyłki nie istnieje (prawdopodobnie wyczyszczono historię).",
+    "severity": {
+      "success": "OK",
+      "minor_issue": "drobna uwaga",
+      "major_issue": "do poprawki",
+      "wrong_request": "nie to, o co prosił",
+      "critical_fail": "krytyczny błąd"
+    }
+  },
+  "ai": {
+    "loadingModel": "Laduje model AI...",
+    "generating": "Generuje SELECT...",
+    "noSlots": "Limit Zapytaj AI zostal juz wykorzystany.",
+    "suggestionTitle": "Propozycja AI - {{model}}",
+    "insert": "Wstaw",
+    "copy": "Kopiuj",
+    "copied": "Skopiowano"
+  },
+  "admin": {
+    "title": "ADMIN - AI",
+    "subtitle": "Wybor modelu dotyczy lokalnego WebLLM. Override zapisuje sie lokalnie i wygrywa z .env.",
+    "aiModel": "Model WebLLM",
+    "modelSource": "Zrodlo: {{source}}",
+    "envModel": ".env: {{model}}",
+    "resetModel": "Wroc do .env",
+    "aiUsage": "Uzycie AI: {{used}}/{{total}}",
+    "resetAiUsage": "Resetuj licznik AI",
+    "avatarBlockSize": "Avatar block size",
+    "avatarBlockSizeSource": "Zrodlo: {{source}}",
+    "envAvatarBlockSize": ".env: {{size}}",
+    "avatarGreyscaleForced": "Greyscale jest wymuszony dla avatara gracza.",
+    "resetAvatarBlockSize": "Wroc do .env",
+    "webLlmStatus": "Status WebLLM",
+    "time": {
+      "title": "TIME DEBUG",
+      "subtitle": "Dzien {{day}} · {{state}}",
+      "running": "czas leci",
+      "paused": "pauza gracza",
+      "frozen": "freeze admina",
+      "ended": "day end",
+      "freeze": "Freeze time",
+      "unfreeze": "Unfreeze time",
+      "dayField": "Dzień",
+      "timeField": "Godzina",
+      "setTime": "Ustaw czas",
+      "retroStart": "Retro start",
+      "retroMiddle": "Retro środek",
+      "plusHour": "+1h",
+      "plusThreeHours": "+3h",
+      "endDay": "End current day"
+    },
+    "modelSources": {
+      "env": ".env",
+      "admin": "admin override"
+    },
+    "dangerZone": {
+      "title": "RESET SAVE",
+      "subtitle": "Kasuje wszystkie bazy IndexedDB tej strony i localStorage. Po reload startujesz od Day 1.",
+      "resetSave": "Wyczysc save i przeladuj",
+      "resetConfirm": "Skasowac caly stan gry i przeladowac?"
+    },
+    "status": {
+      "idle": "Idle",
+      "loading-model": "Ladowanie modelu",
+      "ready": "Model gotowy",
+      "generating": "Generowanie",
+      "error": "Blad"
+    },
+    "scoring": {
+      "title": "SCORE - run-wide stats",
+      "subtitle": "Liczby ukryte przed graczem (Day 7 review pokaze pasma). Tu widac surowe wartosci do balansu.",
+      "accuracy": "accuracy",
+      "speed": "speed",
+      "reputation": "reputation",
+      "repByPerson": "Reputacja per osoba",
+      "repEmpty": "Brak interakcji.",
+      "history": "Ostatnie zmiany",
+      "historyEmpty": "Jeszcze zaden task nie zostal wyslany.",
+      "reset": "Resetuj scoring",
+      "col": {
+        "when": "kiedy",
+        "task": "task",
+        "severity": "severity",
+        "speedBucket": "speed"
+      }
+    }
+  },
+  "boot": {
+    "kicker": "BEST WIPE BOOT SEQUENCE",
+    "title": "Przygotowuje lokalne AI",
+    "loading": "Ladowanie modelu {{percent}}%",
+    "progressAria": "Postep ladowania modelu AI: {{percent}}%",
+    "errorTitle": "AI nie wystartowalo",
+    "continueWithoutAi": "Wejdz bez AI",
+    "detail": {
+      "preparing": "Przygotowuje lokalny model. Pierwsze uruchomienie moze potrwac dluzej.",
+      "cache": "Odczytuje model z lokalnego cache.",
+      "download": "Pobieram model do lokalnego cache.",
+      "warmup": "Dogrzewam lokalne inference, zeby pierwsza odpowiedz byla natychmiastowa.",
+      "webgpu": "Inicjalizuje WebGPU."
+    }
+  }
+}

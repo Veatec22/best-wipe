@@ -1,0 +1,301 @@
+id,registration_date,name,surname,country_id,is_test,date_of_birth,gender,city
+1,2025-11-26,Alex,Duczmal,4,false,1952-01-15,M,Koło
+2,2026-04-13,Róża,Dreszer,2,false,1965-07-11,F,Chorzów
+3,2025-12-11,Leonard,Kazek,2,false,1996-05-21,M,Koło
+4,2025-10-27,Jeremi,Rej,1,false,1990-07-09,M,Świdnik
+5,2025-12-28,Kacper,Glapiak,5,false,1956-09-17,M,Stargard Szczeciński
+6,2026-04-05,Adrianna,Soroko,4,false,1991-04-22,F,Szczecin
+7,2025-10-21,Konstanty,Straszak,5,false,1999-01-23,M,Zakopane
+8,2026-02-25,Nataniel,Roter,2,false,1978-11-20,M,Siemianowice Śląskie
+9,2026-03-19,Nela,Kołata,2,false,1969-04-08,F,Kraków
+10,2025-11-29,Elżbieta,Ludwisiak,1,false,1961-03-15,F,Sandomierz
+11,2026-03-12,Bruno,Kiliszek,3,false,1969-03-31,M,Grudziądz
+12,2025-11-23,Dominik,Bryda,3,false,1973-03-30,M,Dąbrowa Górnicza
+13,2026-03-05,Klara,Cukier,2,false,1956-12-01,F,Tarnobrzeg
+14,2025-11-11,Malwina,Halik,4,false,1968-05-03,F,Gdynia
+15,2026-03-25,Anita,Klupś,3,false,1986-10-30,F,Wałbrzych
+16,2025-11-28,Ada,Fiołek,1,false,1987-11-27,F,Pruszków
+17,2025-12-08,Jędrzej,Łakota,1,false,1974-12-12,M,Łuków
+18,2025-11-24,Patryk,Stochel,4,false,1955-01-26,M,Gdynia
+19,2025-11-06,Kornel,Mak,3,false,2002-12-11,M,Ełk
+20,2026-04-10,Maciej,Nesterowicz,5,false,1966-03-07,M,Tychy
+21,2026-01-01,Rafał,Cywka,2,false,1981-03-11,M,Kłodzko
+22,2026-02-08,Karina,Przewoźnik,4,false,1975-07-12,F,Skierniewice
+23,2025-10-29,Sara,Mydlak,2,false,1968-07-03,F,Bartoszyce
+24,2026-03-02,Cyprian,Skolik,1,false,1955-03-13,M,Krotoszyn
+25,2026-02-13,Alex,Bors,3,false,1986-09-08,M,Kościerzyna
+26,2026-03-24,Aniela,Gierak,1,false,1981-10-17,F,Kołobrzeg
+27,2026-04-15,Łukasz,Fita,3,false,1997-03-02,M,Oława
+28,2025-11-10,Kamil,Buszta,4,true,1972-05-28,M,Płońsk
+29,2026-02-06,Tobiasz,Wołczyk,2,false,1965-12-04,M,Lublin
+30,2026-03-10,Tola,Piotrowiak,3,false,1977-08-21,F,Żory
+31,2025-11-09,Kalina,Hajdukiewicz,3,false,1988-12-07,F,Jawor
+32,2026-03-03,Natasza,Fydrych,3,false,1994-12-10,F,Olkusz
+33,2026-01-01,Marika,Piekart,3,false,1994-01-31,F,Knurów
+34,2026-02-23,Marianna,Zygmuntowicz,1,false,1959-11-03,F,Leszno
+35,2026-04-27,Mariusz,Wyrwał,1,false,1987-01-06,M,Łomża
+36,2025-11-02,Aurelia,Prokopiak,4,false,1979-06-29,F,Śrem
+37,2025-12-07,Marika,Mikita,5,false,1965-04-06,F,Chorzów
+38,2025-11-24,Juliusz,Kołtuniak,5,false,1956-07-10,M,Polkowice
+39,2026-04-01,Olga,Schwarz,3,false,1957-10-19,F,Grudziądz
+40,2026-01-21,Jędrzej,Chmielak,5,false,2004-03-28,M,Pszczyna
+41,2025-11-27,Sonia,Wlazły,1,false,1954-08-29,F,Kutno
+42,2026-02-28,Ada,Andrys,2,true,1982-03-10,F,Police
+43,2025-11-28,Agnieszka,Jędrys,1,false,1951-02-13,F,Pszczyna
+44,2025-10-19,Olgierd,Koral,5,false,1996-09-23,M,Iława
+45,2025-11-24,Albert,Sadura,5,false,2002-08-22,M,Nowy Dwór Mazowiecki
+46,2025-12-02,Alan,Duczmal,4,false,1970-04-23,M,Oświęcim
+47,2025-10-25,Kornelia,Chalimoniuk,1,false,1950-07-23,F,Kościan
+48,2026-01-17,Olgierd,Powała,4,false,1984-05-27,M,Zambrów
+49,2026-03-22,Justyna,Jędraszczyk,1,false,1957-07-30,F,Gorlice
+50,2026-04-23,Krystian,Skocz,1,false,1993-10-26,M,Cieszyn
+51,2026-02-15,Rozalia,Straszak,4,false,1960-09-26,F,Rumia
+52,2025-12-11,Elżbieta,Jarema,4,false,1987-01-16,F,Środa Wielkopolska
+53,2026-01-22,Angelika,Dzienis,5,false,1991-02-04,F,Ostrołęka
+54,2025-10-24,Ida,Kwoka,2,false,1957-12-13,F,Skarżysko-Kamienna
+55,2026-02-01,Marcin,Gogacz,2,false,1954-04-12,M,Zamość
+56,2025-11-12,Ewelina,Fiołek,4,true,1956-03-01,F,Nowa Ruda
+57,2025-12-07,Andrzej,Stoltmann,4,false,1955-01-18,M,Lubartów
+58,2025-11-09,Cezary,Szajner,2,false,1958-11-23,M,Zielona Góra
+59,2026-02-26,Dagmara,Buchalik,5,false,1987-10-02,F,Jastrzębie-Zdrój
+60,2025-10-15,Adrian,Amanowicz,1,false,1991-08-13,M,Świdnik
+61,2025-10-15,Sara,Brojek,5,false,2001-09-25,F,Kościerzyna
+62,2025-10-18,Sylwia,Skoneczna,5,false,1998-11-08,F,Piekary Śląskie
+63,2026-01-12,Marika,Pachnik,1,false,1994-07-24,F,Rumia
+64,2026-02-26,Nela,Kopik,5,true,1985-07-23,F,Jarosław
+65,2026-01-16,Sandra,Młot,5,false,1965-08-17,F,Kielce
+66,2025-12-06,Alan,Tylek,2,false,1990-05-16,M,Zgorzelec
+67,2025-12-01,Oliwier,Pawełkiewicz,3,false,1965-04-28,M,Kraków
+68,2026-01-26,Piotr,Jasina,3,false,1993-04-14,M,Toruń
+69,2025-10-03,Adrianna,Prucnal,4,false,1952-06-22,F,Starachowice
+70,2025-10-19,Kalina,Chylak,5,false,1966-07-14,F,Tczew
+71,2025-11-03,Józef,Stachów,3,false,1964-11-30,M,Czeladź
+72,2026-01-03,Kaja,Kuziora,3,false,1989-03-13,F,Łuków
+73,2026-03-06,Marek,Macias,5,true,2003-09-24,M,Chrzanów
+74,2026-03-19,Gabriel,Kidoń,1,false,1956-10-03,M,Rybnik
+75,2025-12-07,Dagmara,Graś,1,false,1974-06-13,F,Świdnik
+76,2025-12-09,Anastazja,Tekieli,3,false,1999-12-14,F,Radom
+77,2025-11-22,Natan,Wosiek,3,false,1994-04-23,M,Tychy
+78,2025-10-14,Antoni,Kościk,1,false,1999-11-22,M,Wejherowo
+79,2025-10-12,Mikołaj,Pyszka,1,false,1963-05-17,M,Inowrocław
+80,2026-03-13,Anna Maria,Zagozda,3,false,1959-11-17,F,Świdnik
+81,2026-02-19,Tomasz,Widłak,4,false,1981-10-26,M,Leszno
+82,2025-10-20,Kalina,Potoczna,2,false,2005-04-28,F,Żywiec
+83,2026-02-27,Franciszek,Szałas,5,false,1994-09-19,M,Czeladź
+84,2025-10-11,Kamila,Deluga,3,false,2001-08-13,F,Chełm
+85,2025-12-31,Kornelia,Tomys,2,false,1983-05-21,F,Sochaczew
+86,2025-12-30,Sara,Kurda,5,false,1977-08-17,F,Toruń
+87,2026-03-08,Karol,Bartłomiejczyk,2,false,1950-06-26,M,Nysa
+88,2025-11-11,Agnieszka,Gierasimiuk,2,false,2003-10-07,F,Sanok
+89,2025-11-15,Marcelina,Twardy,3,false,1997-09-27,F,Nowa Ruda
+90,2026-04-24,Konstanty,Maligłówka,2,false,1999-03-24,M,Wołomin
+91,2026-01-06,Marianna,Warczak,1,false,1970-07-12,F,Stargard Szczeciński
+92,2025-11-21,Olga,Szmuc,4,false,2000-05-27,F,Czeladź
+93,2025-11-27,Olga,Nitek,1,false,1971-09-05,F,Sosnowiec
+94,2025-12-24,Szymon,Stempin,3,false,1982-10-13,M,Jasło
+95,2025-12-29,Błażej,Snoch,5,false,1954-03-17,M,Kraśnik
+96,2025-10-08,Maciej,Kielczyk,1,false,1962-12-25,M,Gliwice
+97,2025-11-15,Radosław,Kuropatwa,5,false,1996-04-14,M,Chełm
+98,2025-10-10,Ksawery,Engler,1,false,1989-02-07,M,Leszno
+99,2026-04-05,Aleks,Paluszak,3,false,1953-01-15,M,Pruszcz Gdański
+100,2026-01-07,Klara,Klaja,5,false,1995-01-27,F,Śrem
+101,2026-03-31,Ewelina,Zinkiewicz,4,true,1971-11-13,F,Kędzierzyn-Koźle
+102,2026-01-02,Sara,Ryguła,4,false,1999-01-28,F,Racibórz
+103,2026-03-09,Ignacy,Żurawik,3,false,1977-04-09,M,Włocławek
+104,2026-04-03,Dagmara,Buś,3,false,1970-10-02,F,Knurów
+105,2025-12-23,Damian,Gregorczuk,4,false,1955-04-11,M,Łódź
+106,2025-11-19,Dorota,Milewczyk,4,false,1988-08-25,F,Tychy
+107,2026-03-23,Piotr,Rapa,2,false,1964-11-03,M,Cieszyn
+108,2026-01-12,Adrian,Syroka,5,false,1974-02-01,M,Gliwice
+109,2025-12-13,Marcel,Nyk,2,false,1969-09-24,M,Słupsk
+110,2026-01-28,Borys,Goska,4,false,1987-04-21,M,Kluczbork
+111,2026-02-08,Roksana,Cieciora,4,false,2005-04-05,F,Wyszków
+112,2026-03-18,Angelika,Lorenz,1,false,1995-10-14,F,Zgorzelec
+113,2025-10-24,Krystian,Nastały,2,false,1957-05-21,M,Tarnów
+114,2026-04-25,Agnieszka,Sycz,2,false,1957-08-15,F,Piastów
+115,2025-12-02,Liwia,Trzcionka,4,false,1968-11-14,F,Bełchatów
+116,2026-01-25,Rozalia,Karpik,4,false,1999-03-04,F,Puławy
+117,2026-04-02,Sara,Bugno,4,false,1993-07-01,F,Łomża
+118,2025-11-07,Eliza,Wołoszyk,1,false,1967-06-05,F,Radom
+119,2026-04-18,Klara,Wasyluk,4,false,1979-03-01,F,Tarnowskie Góry
+120,2025-10-13,Michał,Staś,5,false,1973-01-13,M,Reda
+121,2026-01-25,Kaja,Melaniuk,2,false,1968-02-29,F,Jaworzno
+122,2026-04-12,Leonard,Gogol,4,false,1987-11-18,M,Kluczbork
+123,2026-02-18,Bruno,Żugaj,4,false,1950-12-30,M,Elbląg
+124,2026-01-24,Piotr,Hajder,3,false,1997-05-12,M,Legnica
+125,2026-04-15,Jeremi,Kochanowicz,5,false,2007-02-17,M,Krosno
+126,2025-12-10,Julita,Pleban,4,false,1960-05-31,F,Nowa Sól
+127,2025-11-30,Wiktor,Kargol,3,false,1971-04-25,M,Radomsko
+128,2025-11-05,Julianna,Siewert,2,false,1953-01-19,F,Tarnobrzeg
+129,2026-03-30,Sara,Chojak,2,false,1967-04-27,F,Bielsk Podlaski
+130,2025-12-24,Mikołaj,Materek,5,false,2003-06-04,M,Bielawa
+131,2025-11-22,Anastazja,Schubert,4,false,2001-05-04,F,Grudziądz
+132,2026-04-14,Aniela,Kurda,5,false,1961-05-25,F,Konin
+133,2025-12-30,Anastazja,Langa,3,false,1962-07-18,F,Świebodzice
+134,2026-02-15,Leon,Derek,5,false,1978-05-10,M,Świecie
+135,2026-02-02,Aurelia,Teter,2,false,1967-03-24,F,Żory
+136,2025-10-08,Maksymilian,Szpala,4,false,1998-01-22,M,Gorzów Wielkopolski
+137,2026-04-04,Rafał,Mądrzyk,2,false,1952-12-21,M,Kwidzyn
+138,2026-03-09,Adrianna,Bzymek,5,true,2005-11-27,F,Knurów
+139,2026-03-01,Tymoteusz,Sobkiewicz,5,false,2006-03-05,M,Głogów
+140,2026-03-14,Adrianna,Jurczuk,4,false,1995-04-03,F,Mysłowice
+141,2025-11-16,Ksawery,Obst,1,false,1969-04-18,M,Gliwice
+142,2025-11-24,Ernest,Kosidło,4,false,1974-03-26,M,Nowy Dwór Mazowiecki
+143,2025-12-11,Juliusz,Fierek,4,false,1996-07-30,M,Iława
+144,2026-01-29,Lidia,Jop,1,false,1958-03-09,F,Kędzierzyn-Koźle
+145,2025-12-29,Justyna,Kudełka,2,false,1968-05-27,F,Katowice
+146,2026-04-12,Urszula,Wittbrodt,1,false,1979-11-29,F,Wodzisław Śląski
+147,2025-10-06,Anita,Bryczek,5,false,1971-09-07,F,Oświęcim
+148,2026-01-30,Rozalia,Knapek,1,false,1958-03-17,F,Kutno
+149,2026-01-28,Ewelina,Kunysz,3,false,1967-09-03,F,Gdynia
+150,2026-03-05,Nicole,Zaniewicz,5,false,1950-06-15,F,Dzierżoniów
+151,2026-04-18,Tola,Lamch,2,false,1997-01-28,F,Kościan
+152,2026-02-26,Aurelia,Cuch,1,false,1995-12-22,F,Piła
+153,2026-01-10,Grzegorz,Raźniak,2,false,1955-02-06,M,Bielsk Podlaski
+154,2025-10-27,Lidia,Markiel,3,false,1971-09-13,F,Żagań
+155,2026-04-22,Sandra,Słonka,5,false,1970-10-10,F,Cieszyn
+156,2026-02-14,Marcin,Pokusa,4,false,1978-02-16,M,Świętochłowice
+157,2026-02-07,Marika,Duchnik,3,true,1970-06-16,F,Zgorzelec
+158,2026-04-29,Wiktor,Zimoląg,4,false,1978-12-13,M,Bielsk Podlaski
+159,2026-03-12,Rafał,Nytko,4,false,2001-03-31,M,Jelenia Góra
+160,2025-11-15,Norbert,Zięcik,5,false,1970-10-26,M,Zduńska Wola
+161,2026-03-07,Jacek,Jażdżyk,5,false,1950-05-14,M,Biała Podlaska
+162,2026-01-20,Julian,Mol,5,false,1979-08-04,M,Augustów
+163,2025-10-23,Rozalia,Żyto,3,false,1972-04-07,F,Żary
+164,2026-04-11,Nela,Basaj,4,false,1996-04-24,F,Gniezno
+165,2025-12-26,Juliusz,Wojtczuk,1,false,2004-05-08,M,Świebodzice
+166,2025-11-16,Karol,Latko,4,false,1956-02-09,M,Bełchatów
+167,2025-12-27,Juliusz,Ligenza,3,false,1993-05-29,M,Pruszcz Gdański
+168,2026-02-20,Leon,Deluga,1,false,2006-01-12,M,Ostrów Mazowiecka
+169,2025-10-22,Aniela,Heczko,2,false,1971-06-18,F,Suwałki
+170,2026-02-20,Oskar,Chaber,2,false,1952-01-01,M,Gdynia
+171,2026-01-23,Marcel,Buchalik,1,false,1991-12-08,M,Płońsk
+172,2026-01-12,Kalina,Wacław,2,false,1978-07-16,F,Czerwionka-Leszczyny
+173,2026-01-30,Stefan,Wrześniak,5,false,1999-03-22,M,Sandomierz
+174,2026-04-09,Eryk,Rajda,5,false,1977-07-14,M,Tomaszów Mazowiecki
+175,2025-12-09,Wojciech,Bacia,3,false,1997-02-16,M,Kraków
+176,2026-04-03,Elżbieta,Stoltman,2,false,2002-09-27,F,Gorzów Wielkopolski
+177,2025-11-19,Janina,Drewicz,2,false,1965-03-25,F,Konin
+178,2026-04-04,Nataniel,Trybała,5,false,1981-12-13,M,Częstochowa
+179,2025-10-26,Konstanty,Lubera,2,false,2008-01-25,M,Wałbrzych
+180,2025-11-15,Olaf,Leks,3,true,2004-11-15,M,Malbork
+181,2025-12-10,Dagmara,Materka,1,false,1988-05-16,F,Giżycko
+182,2026-03-28,Damian,Tatarczuk,2,false,1980-06-15,M,Września
+183,2025-10-27,Olgierd,Franiak,1,false,1984-09-08,M,Chojnice
+184,2026-01-31,Jacek,Krzan,4,false,1961-03-02,M,Piastów
+185,2025-12-04,Apolonia,Chyb,4,false,1967-12-23,F,Ostrów Mazowiecka
+186,2026-01-11,Aniela,Merda,4,false,1993-09-24,F,Tarnowskie Góry
+187,2025-11-08,Janina,Gabryszak,2,false,1985-10-23,F,Wołomin
+188,2025-10-22,Jędrzej,Jaremko,2,false,1969-01-09,M,Bolesławiec
+189,2026-03-05,Piotr,Feliniak,5,false,1969-10-12,M,Chełm
+190,2026-04-17,Róża,Filak,5,false,1972-02-04,F,Czeladź
+191,2025-12-16,Maciej,Nazimek,5,false,1960-08-07,M,Pabianice
+192,2026-02-23,Eryk,Tadla,5,false,1960-09-25,M,Kluczbork
+193,2026-04-14,Sara,Kokosza,2,false,1978-07-27,F,Sieradz
+194,2026-03-19,Leon,Swiątek,1,false,1982-01-16,M,Żyrardów
+195,2026-02-19,Olga,Szczubełek,1,false,2007-01-06,F,Szczecinek
+196,2026-01-24,Eryk,Dumin,5,false,1990-01-31,M,Sandomierz
+197,2025-11-29,Ewa,Błasik,3,false,2002-06-08,F,Łuków
+198,2025-10-19,Rafał,Kapuścik,2,false,1950-09-27,M,Skierniewice
+199,2026-01-17,Roksana,Pyszny,1,false,1976-11-16,F,Szczecinek
+200,2025-12-08,Anna Maria,Piestrzeniewicz,2,false,2000-04-30,F,Myszków
+201,2026-04-21,Tola,Minkina,3,false,1965-05-06,F,Wołomin
+202,2026-01-21,Kamil,Wakuła,1,false,1979-12-30,M,Wołomin
+203,2026-03-29,Bartek,Prażmo,4,false,1973-03-18,M,Świecie
+204,2026-01-21,Natan,Mostek,1,false,1977-11-07,M,Wieluń
+205,2026-04-07,Karol,Łokietek,3,false,1982-02-22,M,Zielona Góra
+206,2025-10-24,Inga,Kręgiel,2,false,1952-03-04,F,Ciechanów
+207,2026-04-14,Julita,Superson,3,false,1995-06-15,F,Szczecin
+208,2026-01-29,Klara,Dynia,5,false,1979-07-04,F,Tarnów
+209,2025-11-16,Jerzy,Ulewicz,5,false,1953-10-04,M,Kędzierzyn-Koźle
+210,2025-10-24,Rafał,Job,4,false,1964-09-27,M,Sanok
+211,2025-12-22,Miłosz,Ruchała,1,false,2002-02-20,M,Kołobrzeg
+212,2026-01-14,Sebastian,Dziurla,4,false,2006-12-13,M,Szczecinek
+213,2026-04-27,Hubert,Chołody,5,true,1955-11-29,M,Kwidzyn
+214,2025-12-20,Ewa,Buk,3,false,1987-01-17,F,Radom
+215,2026-02-09,Tymoteusz,Wojtak,1,false,1994-07-31,M,Gliwice
+216,2026-01-14,Tobiasz,Ładniak,1,false,1953-01-28,M,Polkowice
+217,2026-03-09,Bartek,Kalarus,4,false,1963-11-27,M,Gdańsk
+218,2025-11-22,Inga,Kolanek,3,false,1966-07-28,F,Zielona Góra
+219,2026-01-21,Marek,Brygoła,4,false,1958-02-14,M,Swarzędz
+220,2026-03-31,Sara,Bobko,2,false,1997-12-08,F,Stalowa Wola
+221,2026-02-19,Janina,Bany,4,false,1961-10-03,F,Krotoszyn
+222,2026-01-27,Rozalia,Nitek,1,false,1999-03-22,F,Płock
+223,2026-02-05,Janina,Pietrus,3,false,1961-06-25,F,Piekary Śląskie
+224,2026-01-15,Mikołaj,Ciesielka,4,false,1952-02-01,M,Piekary Śląskie
+225,2026-01-25,Ewelina,Nytko,5,false,1975-11-17,F,Otwock
+226,2026-03-03,Nicole,Bicz,5,false,1955-07-05,F,Luboń
+227,2025-10-18,Sylwia,Bela,3,false,1993-01-08,F,Tomaszów Mazowiecki
+228,2025-12-27,Mikołaj,Duchnik,5,false,2002-11-27,M,Biała Podlaska
+229,2025-12-12,Melania,Kapałka,3,false,2005-02-25,F,Opole
+230,2025-11-08,Ryszard,Bruś,4,false,1953-02-17,M,Wodzisław Śląski
+231,2025-12-25,Cezary,Skotarek,5,false,1995-05-10,M,Krosno
+232,2026-01-25,Filip,Małocha,3,false,1994-05-27,M,Puławy
+233,2026-02-24,Kamila,Rejmak,4,false,1978-12-03,F,Oleśnica
+234,2025-10-12,Mikołaj,Laskus,3,false,1974-12-26,M,Kłodzko
+235,2026-01-07,Olaf,Leoniak,2,false,1960-09-30,M,Oświęcim
+236,2025-11-02,Justyna,Jarmuła,5,false,1985-11-04,F,Zakopane
+237,2025-10-26,Łukasz,Wąsala,4,false,2005-05-02,M,Iława
+238,2025-10-04,Tobiasz,Szczepaniec,2,false,1981-12-21,M,Oświęcim
+239,2025-10-20,Gaja,Hamerla,4,false,1990-08-28,F,Żory
+240,2025-12-26,Miłosz,Jargiło,5,false,1967-01-16,M,Bielsko-Biała
+241,2025-12-24,Róża,Sowała,5,false,1981-01-05,F,Tomaszów Mazowiecki
+242,2026-03-10,Albert,Cholewka,4,false,1989-02-11,M,Września
+243,2026-03-08,Dagmara,Bartłomiejczyk,1,false,1973-03-25,F,Bydgoszcz
+244,2025-11-28,Witold,Kruś,1,false,1972-06-15,M,Piotrków Trybunalski
+245,2026-04-13,Ida,Hutnik,1,false,1974-06-26,F,Kędzierzyn-Koźle
+246,2025-10-08,Alan,Marchlewicz,1,false,1990-11-27,M,Bartoszyce
+247,2025-12-15,Róża,Wiraszka,3,false,1951-01-11,F,Czechowice-Dziedzice
+248,2025-12-02,Monika,Juszczuk,5,false,1966-10-05,F,Kościan
+249,2025-11-13,Anastazja,Wołoszyk,2,false,1988-02-12,F,Lubartów
+250,2026-03-08,Ignacy,Maciejewicz,2,false,1982-09-26,M,Kętrzyn
+251,2025-11-29,Nicole,Dziadowicz,4,false,1980-11-01,F,Poznań
+252,2025-12-05,Aleksander,Kozar,1,false,1965-06-01,M,Zduńska Wola
+253,2025-12-13,Mieszko,Ruszel,5,false,1971-03-05,M,Żagań
+254,2025-12-28,Aleks,Żero,5,false,1982-07-17,M,Zgorzelec
+255,2026-03-26,Błażej,Jonak,3,false,1979-04-17,M,Piastów
+256,2025-11-20,Jacek,Pabiś,4,false,1974-04-12,M,Bartoszyce
+257,2025-11-30,Dorota,Pielech,4,false,1971-03-16,F,Przemyśl
+258,2026-03-29,Oliwier,Pizoń,3,true,1999-06-03,M,Mysłowice
+259,2025-12-10,Damian,Kostro,1,false,2000-11-21,M,Iława
+260,2026-03-05,Elżbieta,Pawlaczek,4,false,1962-12-08,F,Mysłowice
+261,2026-04-17,Dominik,Jargieło,2,false,1983-04-15,M,Tarnowskie Góry
+262,2025-11-26,Olgierd,Żywica,2,false,2002-01-26,M,Ostróda
+263,2026-03-10,Rozalia,Maćków,1,false,1957-03-06,F,Mysłowice
+264,2025-12-19,Marcelina,Sadza,4,true,1974-11-23,F,Konin
+265,2026-04-06,Krystian,Romańczyk,2,false,1998-07-08,M,Nowy Targ
+266,2025-12-23,Wiktor,Sklorz,4,false,1953-06-08,M,Radom
+267,2026-04-20,Liwia,Rusiniak,5,false,1997-10-18,F,Zielona Góra
+268,2026-02-13,Alex,Adamów,5,false,2001-07-25,M,Oleśnica
+269,2025-12-05,Urszula,Kasznia,4,false,1951-03-04,F,Ząbki
+270,2026-04-10,Julian,Noras,3,false,1982-11-30,M,Bolesławiec
+271,2025-10-20,Alan,Szłapka,2,false,1953-10-31,M,Przemyśl
+272,2026-03-23,Apolonia,Początek,4,false,2006-04-13,F,Kielce
+273,2025-10-24,Ksawery,Kloch,4,true,1955-05-19,M,Łuków
+274,2026-01-25,Krystyna,Migda,3,false,1953-12-26,F,Legnica
+275,2026-02-27,Igor,Pieczyrak,4,false,1988-08-21,M,Biała Podlaska
+276,2025-10-28,Maciej,Krekora,2,false,1958-05-26,M,Oława
+277,2026-03-06,Fryderyk,Żołnierczyk,2,false,1991-08-07,M,Giżycko
+278,2026-03-29,Fabian,Walenciak,3,false,2003-02-14,M,Dzierżoniów
+279,2025-11-05,Ada,Żelazo,1,false,1980-06-18,F,Będzin
+280,2026-02-04,Gustaw,Roszkiewicz,1,false,1971-02-13,M,Mława
+281,2026-01-08,Inga,Saj,4,false,1991-10-28,F,Koło
+282,2026-02-28,Franciszek,Husak,2,false,1964-06-23,M,Gorlice
+283,2026-02-03,Sara,Dykas,5,false,1995-04-13,F,Bytom
+284,2025-10-09,Maksymilian,Chlipała,3,false,1962-03-02,M,Zgorzelec
+285,2025-11-30,Piotr,Kurtyka,3,false,1950-07-09,M,Sieradz
+286,2026-02-17,Artur,Błażejewicz,3,false,1990-09-30,M,Kwidzyn
+287,2025-11-18,Tymon,Witas,1,false,1966-02-02,M,Świdnica
+288,2025-10-24,Maks,Małyszek,2,false,1998-03-05,M,Sanok
+289,2025-10-13,Kalina,Bugno,3,false,1966-03-22,F,Łomża
+290,2026-04-20,Julianna,Miąsko,5,false,1992-11-14,F,Bochnia
+291,2026-02-28,Dagmara,Grębowiec,2,false,1963-10-19,F,Świdnik
+292,2025-12-24,Sandra,Staniczek,2,false,1965-08-20,F,Kętrzyn
+293,2025-12-10,Marianna,Migała,2,false,2006-08-04,F,Koszalin
+294,2026-04-23,Piotr,Kanarek,2,false,1961-08-18,M,Zgierz
+295,2025-11-03,Rozalia,Galuba,1,false,2006-06-05,F,Mława
+296,2026-02-28,Marcelina,Świerkot,3,true,1958-10-19,F,Żary
+297,2025-10-14,Mieszko,Ciuba,2,false,1997-12-14,M,Zduńska Wola
+298,2026-04-09,Róża,Męcik,1,false,1987-01-31,F,Brzeg
+299,2026-02-09,Borys,Hyży,5,false,1991-01-13,M,Białystok
+300,2026-03-07,Sonia,Balcewicz,1,false,1972-04-09,F,Łowicz

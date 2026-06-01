@@ -1,0 +1,396 @@
+{
+  "app": {
+    "brandLine1": "BEST",
+    "brandLine2": "WIPE",
+    "subtitle": "v0.1 · probation week 1"
+  },
+  "header": {
+    "askAi": "Ask AI {{used}}/{{total}}",
+    "remaining": "{{time}} left",
+    "day": "DAY {{day}}"
+  },
+  "sidebar": {
+    "company": "Best Wipe",
+    "weekday": "MON",
+    "groups": {
+      "channels": "CHANNELS",
+      "dm": "DIRECT MESSAGES",
+      "you": "YOU"
+    },
+    "youLabel": "analyst · growth"
+  },
+  "chat": {
+    "label": "Best Wipe · Slack",
+    "empty": "no messages",
+    "actions": {
+      "accept": "ACCEPT",
+      "reject": "REJECT",
+      "accepted": "ACCEPTED",
+      "rejected": "REJECTED",
+      "ignored": "IGNORED"
+    },
+    "autoReply": {
+      "accept": "ok, I'll take it",
+      "reject": "can't take this right now"
+    },
+    "submission": {
+      "cover": "here you go"
+    },
+    "reactions": {
+      "add": "Add reaction",
+      "title": "Pick a reaction",
+      "chipAria": "{{emoji}} · {{count}}"
+    }
+  },
+  "tabs": {
+    "tasks": "Tasks",
+    "schema": "Schema",
+    "docs": "Docs",
+    "structure": "Org",
+    "notes": "Notes",
+    "calendar": "Calendar",
+    "admin": "ADMIN",
+    "workspaceDesktop": "Work desktop",
+    "workspaceExplorer": "Workspace tab list"
+  },
+  "tasks": {
+    "empty": {
+      "title": "NO TASKS",
+      "line1": "Accepted SQL tasks will appear here.",
+      "line2": "Open a DM in the left rail and click \"ACCEPT\"."
+    },
+    "scratchpadTab": "Scratchpad",
+    "send": "Send",
+    "sending": "Sending…",
+    "sentOk": "Sent ✓",
+    "sendAgain": "Send again"
+  },
+  "sql": {
+    "scratchpadLabel": "SCRATCHPAD · Week 1",
+    "resultsLabel": "RESULTS",
+    "run": "Run (Ctrl+Enter)",
+    "running": "Running…",
+    "runtimeLoading": "Loading DuckDB and dataset…",
+    "idle": "No results yet. Type a query and hit Run.",
+    "empty": "Query executed but returned no rows.",
+    "error": "Query error",
+    "rowsMeta": "{{count}} rows · {{ms}} ms",
+    "truncated": "Showing {{shown}} of {{total}} rows.",
+    "filterPlaceholder": "filter…",
+    "emptyAfterFilter": "No rows match the active filter."
+  },
+  "report": {
+    "title": "REPORT",
+    "builderLabel": "Report builder",
+    "build": "Build report",
+    "runFirst": "Run SQL with at least two columns to build a report.",
+    "sourceColumns": "{{count}} columns from SQL result",
+    "chartType": "Type",
+    "xColumn": "X",
+    "yColumn": "Y",
+    "choose": "choose...",
+    "dimensions": "Dimensions",
+    "measures": "Measures",
+    "columnsShelf": "Columns",
+    "rowsShelf": "Rows",
+    "dropDimension": "drop dimension here",
+    "dropMeasure": "drop measure here",
+    "askAi": "Ask AI",
+    "aiGenerating": "Choosing chart...",
+    "aiSuggestion": "{{type}} · X: {{x}} · Y: {{y}}",
+    "useSuggestion": "Use",
+    "previewEmpty": "Choose a chart type and X/Y fields from the SQL result.",
+    "types": {
+      "bar": "Bar",
+      "line": "Line"
+    }
+  },
+  "schema": {
+    "title": "SCHEMA · Best Wipe",
+    "subtitle": "ERD of probation_week1. Day 4–6 unlock additional relations (sessions, refunds, countries_v2).",
+    "ariaLabel": "Best Wipe database ERD",
+    "loading": "Rendering diagram…",
+    "canvas": {
+      "toolbar": "Schema navigation",
+      "search": "Search schema",
+      "searchPlaceholder": "Search table or field",
+      "zoomIn": "Zoom schema in",
+      "zoomOut": "Zoom schema out",
+      "reset": "Reset schema view"
+    }
+  },
+  "docs": {
+    "title": "DATA HANDBOOK · Best Wipe",
+    "intro": "Docs are trusted and always up to date. After official changes (e.g. a new table version) you'll see the announcement in #data-platform, and the corresponding handbook entry will be updated. Before submitting a task, make sure your SQL follows these definitions.",
+    "activeUser": {
+      "heading": "Active user",
+      "body": "A user is active in a given month if they had at least one session in that calendar month. Use COUNT(DISTINCT user_id) on sessions, aggregating by full calendar months."
+    },
+    "revenue": {
+      "heading": "Revenue",
+      "body": "The default revenue definition is net, unless a stakeholder explicitly asks for gross. After the refunds table rolls out you must subtract refunds.amount from sales.net."
+    },
+    "testAccounts": {
+      "heading": "Test accounts",
+      "body": "users.is_test = true marks a test account (QA, dev, soak tests). User-level reports should default to WHERE is_test = false. Unless a task says otherwise, assume the stakeholder does not want test accounts."
+    },
+    "footer": "Full handbook ships in Phase 4 — this is the starter snippet."
+  },
+  "structure": {
+    "title": "ORG · Best Wipe",
+    "subtitle": "Tribe matters. Tasks from people in your reporting line (Growth) carry more weight.",
+    "legend": {
+      "ceo": "CEO",
+      "lead": "Tribe lead",
+      "you": "YOU"
+    },
+    "ariaLabel": "Best Wipe org tree",
+    "loading": "Rendering diagram…",
+    "canvas": {
+      "toolbar": "Org navigation",
+      "search": "Search org",
+      "searchPlaceholder": "Search person or role",
+      "zoomIn": "Zoom org in",
+      "zoomOut": "Zoom org out",
+      "reset": "Reset org view"
+    },
+    "viewTabsLabel": "Org view",
+    "views": {
+      "diagram": "Diagram",
+      "table": "Table"
+    },
+    "table": {
+      "department": "Department",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "role": "Role",
+      "reportsTo": "Reports to",
+      "filterPlaceholder": "filter…",
+      "emptyAfterFilter": "No people match the active filter."
+    },
+    "noManager": "—"
+  },
+  "notes": {
+    "placeholder": "Notes — what you noticed, what you missed, what to remember.\n\nNothing goes to AI or to other characters. Only you see this.",
+    "statusSaving": "Saving…",
+    "statusSavedAt": "Saved at {{time}}",
+    "statusIdle": "Autosave active",
+    "chars": "{{count}} chars"
+  },
+  "calendar": {
+    "kicker": "BEST WIPE CALENDAR",
+    "title": "Meetings calendar",
+    "now": "now {{time}}",
+    "timelineLabel": "Workday schedule",
+    "detailsLabel": "Meeting details",
+    "detailsKicker": "INVITE",
+    "join": "Join",
+    "week": {
+      "day": "DAY {{day}}"
+    },
+    "fields": {
+      "time": "Time",
+      "owner": "Host",
+      "participants": "Participants"
+    },
+    "retro": {
+      "title": "Week start retro",
+      "aria": "Week start retro, 10:30-10:45",
+      "description": "A short Growth sync after the morning requests. Kuba wants to read the room before tasks scatter across the team."
+    },
+    "block": {
+      "not_started": "This meeting has not started yet.",
+      "ended": "This meeting has already ended."
+    },
+    "room": {
+      "kicker": "MEETING IN PROGRESS",
+      "leave": "Leave",
+      "placeholder": "For now you only see who is present. Dialogue, decisions, and consequences come in the next step."
+    },
+    "dialog": {
+      "label": "Meeting dialog",
+      "next": "Next",
+      "replay": "Replay voice",
+      "retro": {
+        "line1": "Good, quick sync. What drifted after the morning?",
+        "line2": "I just want to note that the country revenue report is absolutely ASAP.",
+        "line3": "I think someone ran another query against the full sales table.",
+        "line4": "No blame. I just need to know whether we have risk before the two o'clock review.",
+        "line5": "The risk is that Marek sees the wrong version and the topic is dead.",
+        "line6": "So classic: it worked until someone asked what revenue means.",
+        "line7": "You, as data, please take a cold look. No heroics, but let's deliver the truth."
+      }
+    }
+  },
+  "status": {
+    "company": "Best Wipe",
+    "tribe": "tribe: growth",
+    "active": "active: {{channel}}",
+    "day": "day {{day}}",
+    "remaining": "{{time}} until end of day",
+    "pause": "❚❚ PAUSE",
+    "resume": "▶ RESUME",
+    "pausedTitle": "PAUSED",
+    "pausedHint": "Time stopped. Click anywhere or press ESC to resume."
+  },
+  "dayEnd": {
+    "title": "DAY END",
+    "subtitle": "Day closed. Move to the next morning.",
+    "weekComplete": "Day 7 is closed. Week review will be wired in a later step.",
+    "nextDay": "NEXT DAY",
+    "weekLocked": "WEEK END"
+  },
+  "menu": {
+    "label": "Main menu",
+    "kicker": "BEST WIPE INTERNAL OPS",
+    "subtitle": "probation week 1 · analytics workspace",
+    "story": "STORY MODE",
+    "challenges": "CHALLENGE MODE",
+    "endless": "ENDLESS MODE",
+    "settings": "SETTINGS",
+    "fullscreen": "Fullscreen",
+    "music": "Music",
+    "musicVolume": "Music volume",
+    "sfx": "Sound",
+    "sfxVolume": "Sound volume",
+    "language": "Language",
+    "exit": "Exit game",
+    "exitConfirm": "Are you sure you want to quit the game?",
+    "exitFallback": "Close the game window from the system frame.",
+    "version": "v0.1.0"
+  },
+  "cinematics": {
+    "skip": "SKIP",
+    "continue": "CONTINUE",
+    "newGameIntro": {
+      "kicker": "BEST WIPE INC. / ONBOARDING",
+      "title": "DAY 1",
+      "subtitle": "PROBATION PERIOD",
+      "body": {
+        "line1": "In a not-so-distant open space, at a company that believes very strongly in data, onboarding week begins.",
+        "line2": "The analytics team has been temporarily assigned to topics that are strategic, operational, and absolutely yesterday.",
+        "line3": "A new junior data analyst receives access to the warehouse, Slack, documentation, and a moderate amount of trust.",
+        "line4": "RUN only means the query executed. SEND means someone may do something stupid with the result.",
+        "line5": "Survive seven days. Deliver the truth or deliver calm. The company will remember the difference."
+      }
+    }
+  },
+  "music": {
+    "label": "Music player",
+    "play": "Play",
+    "pause": "Pause",
+    "prev": "Previous track",
+    "next": "Next track",
+    "seek": "Seek track",
+    "volume": "Volume",
+    "mute": "Mute",
+    "unmute": "Unmute"
+  },
+  "submission": {
+    "title": "SUBMISSION",
+    "close": "Close",
+    "code": "Code",
+    "result": "Result",
+    "missing": "Submission record is gone (history was cleared).",
+    "severity": {
+      "success": "OK",
+      "minor_issue": "minor note",
+      "major_issue": "needs fixing",
+      "wrong_request": "wrong answer",
+      "critical_fail": "critical fail"
+    }
+  },
+  "ai": {
+    "loadingModel": "Loading AI model...",
+    "generating": "Generating SELECT...",
+    "noSlots": "Ask AI limit has already been used.",
+    "suggestionTitle": "AI suggestion - {{model}}",
+    "insert": "Insert",
+    "copy": "Copy",
+    "copied": "Copied"
+  },
+  "admin": {
+    "title": "ADMIN - AI",
+    "subtitle": "Model selection controls local WebLLM. The local override is saved on this machine and wins over .env.",
+    "aiModel": "WebLLM model",
+    "modelSource": "Source: {{source}}",
+    "envModel": ".env: {{model}}",
+    "resetModel": "Reset to .env",
+    "aiUsage": "AI usage: {{used}}/{{total}}",
+    "resetAiUsage": "Reset AI counter",
+    "avatarBlockSize": "Avatar block size",
+    "avatarBlockSizeSource": "Source: {{source}}",
+    "envAvatarBlockSize": ".env: {{size}}",
+    "avatarGreyscaleForced": "Greyscale is forced for the player avatar.",
+    "resetAvatarBlockSize": "Reset to .env",
+    "webLlmStatus": "WebLLM status",
+    "time": {
+      "title": "TIME DEBUG",
+      "subtitle": "Day {{day}} · {{state}}",
+      "running": "running",
+      "paused": "player pause",
+      "frozen": "admin freeze",
+      "ended": "day end",
+      "freeze": "Freeze time",
+      "unfreeze": "Unfreeze time",
+      "dayField": "Day",
+      "timeField": "Time",
+      "setTime": "Set time",
+      "retroStart": "Retro start",
+      "retroMiddle": "Retro middle",
+      "plusHour": "+1h",
+      "plusThreeHours": "+3h",
+      "endDay": "End current day"
+    },
+    "modelSources": {
+      "env": ".env",
+      "admin": "admin override"
+    },
+    "dangerZone": {
+      "title": "RESET SAVE",
+      "subtitle": "Wipes every IndexedDB database and localStorage entry for this site. After reload you start from Day 1.",
+      "resetSave": "Wipe save and reload",
+      "resetConfirm": "Wipe all game state and reload?"
+    },
+    "status": {
+      "idle": "Idle",
+      "loading-model": "Loading model",
+      "ready": "Model ready",
+      "generating": "Generating",
+      "error": "Error"
+    },
+    "scoring": {
+      "title": "SCORE - run-wide stats",
+      "subtitle": "Numbers are hidden from the player (Day 7 review shows bands). This panel exposes the raw values for balancing.",
+      "accuracy": "accuracy",
+      "speed": "speed",
+      "reputation": "reputation",
+      "repByPerson": "Reputation per person",
+      "repEmpty": "No interactions yet.",
+      "history": "Recent changes",
+      "historyEmpty": "No tasks submitted yet.",
+      "reset": "Reset scoring",
+      "col": {
+        "when": "when",
+        "task": "task",
+        "severity": "severity",
+        "speedBucket": "speed"
+      }
+    }
+  },
+  "boot": {
+    "kicker": "BEST WIPE BOOT SEQUENCE",
+    "title": "Preparing local AI",
+    "loading": "Loading model {{percent}}%",
+    "progressAria": "AI model loading progress: {{percent}}%",
+    "errorTitle": "AI did not start",
+    "continueWithoutAi": "Enter without AI",
+    "detail": {
+      "preparing": "Preparing the local model. First launch can take longer.",
+      "cache": "Reading the model from local cache.",
+      "download": "Downloading the model into local cache.",
+      "warmup": "Warming up local inference so the first answer is immediate.",
+      "webgpu": "Initializing WebGPU."
+    }
+  }
+}

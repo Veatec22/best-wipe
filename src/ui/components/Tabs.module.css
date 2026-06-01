@@ -1,0 +1,46 @@
+.tabs {
+  display: flex;
+  border-bottom: 2px solid var(--ink);
+  background: var(--paper-2);
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.tab {
+  padding: 8px 14px;
+  border-right: 2px solid var(--ink);
+  cursor: var(--df-cursor-pointer);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: transparent;
+  border-top: 0;
+  border-left: 0;
+  border-bottom: 0;
+  font-family: inherit;
+  font-size: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  color: var(--ink);
+}
+
+.tab.active {
+  background: var(--paper);
+  margin-bottom: -2px;
+  border-bottom: 2px solid var(--paper);
+  font-weight: 700;
+}
+
+.pill {
+  background: var(--ink);
+  color: var(--paper);
+  font-size: 9px;
+  padding: 0 4px;
+  margin-left: 2px;
+}
+
+.spacer {
+  flex: 1;
+  border-right: 2px solid var(--ink);
+}

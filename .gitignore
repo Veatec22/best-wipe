@@ -1,0 +1,50 @@
+.context
+node_modules
+dist
+dist-ssr
+*.local
+
+# editor / OS
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Tauri / Rust
+src-tauri/target
+src-tauri/gen
+src-tauri/Cargo.lock
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build artefacts
+*.tsbuildinfo
+
+# Playwright
+/test-results
+/playwright-report
+/playwright/.cache
+/blob-report
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Agent skills — regenerate with `npx skills experimental_install`
+# (skills-lock.json IS committed; the rest is per-machine)
+.agents/
+.claude/skills/
+.later/
+.playwright-red/
+CONTEXT.md

@@ -1,0 +1,3 @@
+Tauri-required icons. Generate with: npm run tauri icon path/to/source-icon.png
+Until then, icons referenced in tauri.conf.json must exist or `tauri build` will fail.
+For local `npm run tauri dev` you can drop in any 1024x1024 PNG and run `npm run tauri icon <file>`.

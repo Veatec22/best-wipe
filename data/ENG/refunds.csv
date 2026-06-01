@@ -1,0 +1,71 @@
+id,order_id,product_id,refund_date,amount,reason
+1,40,6,2025-11-12,18.45,produkt niezgodny z opisem
+2,219,4,2026-01-25,20.28,produkt niezgodny z opisem
+3,6,14,2026-04-30,7.37,produkt niezgodny z opisem
+4,228,7,2026-04-30,98.39,klient zmienił zdanie
+5,199,13,2025-12-30,8.29,opóźniona dostawa
+6,166,4,2026-02-09,20.28,uszkodzone opakowanie
+7,54,12,2026-04-30,29.50,klient zmienił zdanie
+8,122,12,2025-12-17,22.12,wada jakościowa
+9,30,10,2025-12-07,30.74,wada jakościowa
+10,153,1,2026-04-05,11.06,podwójne zamówienie
+11,208,9,2026-03-15,19.67,uszkodzone opakowanie
+12,25,12,2026-02-07,14.75,uszkodzone opakowanie
+13,2,11,2026-02-16,8.60,wada jakościowa
+14,258,15,2026-02-25,13.53,uszkodzone opakowanie
+15,214,14,2025-12-07,3.69,podwójne zamówienie
+16,148,10,2026-01-22,30.74,uszkodzone opakowanie
+17,48,5,2025-11-19,13.52,uszkodzone opakowanie
+18,115,4,2026-01-03,40.57,produkt niezgodny z opisem
+19,16,11,2025-12-27,4.30,produkt niezgodny z opisem
+20,97,9,2026-04-30,9.84,podwójne zamówienie
+21,177,12,2026-02-13,29.50,uszkodzone opakowanie
+22,258,8,2026-02-27,18.44,wada jakościowa
+23,221,10,2025-11-21,15.37,opóźniona dostawa
+24,163,4,2026-02-18,40.57,produkt niezgodny z opisem
+25,233,5,2025-12-28,13.52,uszkodzone opakowanie
+26,133,4,2026-03-08,10.14,podwójne zamówienie
+27,259,8,2026-01-26,18.44,produkt niezgodny z opisem
+28,159,8,2025-10-21,18.44,uszkodzone opakowanie
+29,166,6,2026-02-03,36.89,opóźniona dostawa
+30,159,1,2025-11-02,22.12,klient zmienił zdanie
+31,179,8,2026-04-19,9.22,opóźniona dostawa
+32,208,1,2026-03-09,5.53,wada jakościowa
+33,89,3,2026-01-18,11.68,klient zmienił zdanie
+34,244,12,2025-11-26,29.50,wada jakościowa
+35,73,5,2026-02-15,13.52,podwójne zamówienie
+36,186,12,2026-04-28,14.75,klient zmienił zdanie
+37,57,14,2026-04-08,11.05,opóźniona dostawa
+38,80,10,2026-02-17,15.37,podwójne zamówienie
+39,211,7,2025-11-19,49.20,nie ten produkt
+40,159,8,2025-11-27,18.44,wada jakościowa
+41,149,5,2025-11-01,27.04,wada jakościowa
+42,172,10,2026-04-28,30.74,klient zmienił zdanie
+43,64,15,2026-04-10,27.05,produkt niezgodny z opisem
+44,118,13,2025-11-16,16.59,produkt niezgodny z opisem
+45,247,5,2026-04-30,13.52,wada jakościowa
+46,53,6,2026-02-08,36.89,nie ten produkt
+47,57,15,2026-04-30,27.05,uszkodzone opakowanie
+48,7,10,2026-01-22,15.37,produkt niezgodny z opisem
+49,33,4,2025-11-06,10.14,opóźniona dostawa
+50,240,9,2026-04-18,9.84,uszkodzone opakowanie
+51,9,3,2025-11-28,11.68,podwójne zamówienie
+52,60,8,2026-04-30,9.22,wada jakościowa
+53,261,1,2025-12-31,11.06,klient zmienił zdanie
+54,192,5,2026-01-13,27.04,opóźniona dostawa
+55,241,1,2026-04-13,11.06,wada jakościowa
+56,180,11,2025-10-20,8.60,opóźniona dostawa
+57,57,4,2026-04-15,10.14,wada jakościowa
+58,37,9,2026-03-22,9.84,klient zmienił zdanie
+59,57,3,2026-04-30,23.36,uszkodzone opakowanie
+60,238,14,2025-10-17,7.37,uszkodzone opakowanie
+61,172,1,2026-04-30,11.06,produkt niezgodny z opisem
+62,184,14,2025-11-20,7.37,klient zmienił zdanie
+63,254,6,2026-03-03,73.78,uszkodzone opakowanie
+64,227,8,2025-12-13,18.44,opóźniona dostawa
+65,175,8,2025-12-11,9.22,nie ten produkt
+66,233,5,2025-12-29,20.27,wada jakościowa
+67,75,8,2025-12-25,18.44,opóźniona dostawa
+68,184,1,2025-11-06,11.06,podwójne zamówienie
+69,199,11,2026-01-14,8.60,nie ten produkt
+70,174,4,2026-02-13,10.14,klient zmienił zdanie
